@@ -26,6 +26,16 @@
 
 
 
+## [virtual-secrets/installer](https://github.com/virtual-secrets/installer)
+
+### [v2026.2.27](https://github.com/virtual-secrets/installer/releases/tag/v2026.2.27)
+
+- [3577525](https://github.com/virtual-secrets/installer/commit/3577525) Prepare for release v2026.2.27 (#28)
+- [43ef8f7](https://github.com/virtual-secrets/installer/commit/43ef8f7) Remove reference to kubevault project
+- [0830598](https://github.com/virtual-secrets/installer/commit/0830598) Update deps
+
+
+
 ## [virtual-secrets/server](https://github.com/virtual-secrets/server)
 
 ### [v0.3.0](https://github.com/virtual-secrets/server/releases/tag/v0.3.0)

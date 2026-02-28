@@ -1,7 +1,7 @@
 {
   "product_line": "VirtualSecrets",
   "release": "v2026.2.27",
-  "release_date": "2026-02-28T04:45:25.075655659Z",
+  "release_date": "2026-02-28T05:09:54.31055793Z",
   "release_project_url": "https://github.com/virtual-secrets/CHANGELOG",
   "docs_url": "https://virtual-secrets.dev/docs/v2026.2.27",
   "kubernetes_version": "1.28+",
@@ -65,6 +65,28 @@
             {
               "SHA": "9ffd1e1",
               "Subject": "Cleanup go.mod"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/virtual-secrets/installer",
+      "releases": [
+        {
+          "tag": "v2026.2.27",
+          "commits": [
+            {
+              "SHA": "3577525",
+              "Subject": "Prepare for release v2026.2.27 (#28)"
+            },
+            {
+              "SHA": "43ef8f7",
+              "Subject": "Remove reference to kubevault project"
+            },
+            {
+              "SHA": "0830598",
+              "Subject": "Update deps"
             }
           ]
         }
