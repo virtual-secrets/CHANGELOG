@@ -26,3 +26,13 @@
 
 
 
+## [virtual-secrets/server](https://github.com/virtual-secrets/server)
+
+### [v0.3.0](https://github.com/virtual-secrets/server/releases/tag/v0.3.0)
+
+- [1a740573](https://github.com/virtual-secrets/server/commit/1a740573) Prepare for release v0.3.0 (#14)
+- [22e6fdc7](https://github.com/virtual-secrets/server/commit/22e6fdc7) Update deps (#13)
+- [501c16cf](https://github.com/virtual-secrets/server/commit/501c16cf) Refactor & packaged (#12)
+
+
+
