@@ -1,0 +1,45 @@
+{
+  "product_line": "VirtualSecrets",
+  "release": "v2026.2.27",
+  "docs_url_template": "https://virtual-secrets.dev/docs/%s",
+  "kubernetes_version": "1.28+",
+  "projects": [
+    {
+      "github.com/virtual-secrets/apimachinery": {
+        "tag": "v0.1.0"
+      }
+    },
+    {
+      "github.com/virtual-secrets/csi-provider": {
+        "tag": "v0.1.0"
+      },
+      "github.com/virtual-secrets/server": {
+        "tag": "v0.3.0"
+      }
+    },
+    {
+      "github.com/virtual-secrets/installer": {
+        "key": "virtual-secrets-installer",
+        "tag": "v2026.2.27",
+        "chartNames": [
+          "virtual-secrets-server"
+        ],
+        "commands": [
+          "./hack/scripts/import-crds.sh",
+          "make chart-virtual-secrets-server CHART_VERSION=${RELEASE} CHART_REGISTRY=${CHART_REGISTRY} CHART_REGISTRY_URL=${CHART_REGISTRY_URL} APP_VERSION=${VIRTUAL_SECRETS_SERVER_TAG}",
+          "make chart-secrets-store-csi-driver-provider-virtual-secrets CHART_VERSION=${RELEASE} CHART_REGISTRY=${CHART_REGISTRY} CHART_REGISTRY_URL=${CHART_REGISTRY_URL} APP_VERSION=${VIRTUAL_SECRETS_CSI_PROVIDER_TAG}",
+          "./hack/scripts/update-catalog.sh"
+        ],
+        "release_branch": "release-${TAG}"
+      }
+    },
+    {
+      "github.com/appscode/charts": {
+        "charts": [
+          "github.com/virtual-secrets/installer"
+        ],
+        "changelog": "Skip"
+      }
+    }
+  ]
+}

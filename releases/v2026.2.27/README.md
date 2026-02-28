@@ -1,0 +1,48 @@
+# VirtualSecrets v2026.2.27 (2026-02-28)
+
+
+## [virtual-secrets/apimachinery](https://github.com/virtual-secrets/apimachinery)
+
+### [v0.1.0](https://github.com/virtual-secrets/apimachinery/releases/tag/v0.1.0)
+
+- [5d481b6](https://github.com/virtual-secrets/apimachinery/commit/5d481b6) Update deps (#10)
+- [ff7218c](https://github.com/virtual-secrets/apimachinery/commit/ff7218c) Use k8s 1.34 client libs (#9)
+- [e70e9e9](https://github.com/virtual-secrets/apimachinery/commit/e70e9e9) Test against k8s 1.35 (#8)
+- [2864287](https://github.com/virtual-secrets/apimachinery/commit/2864287) Use golangci-lint 2.x (#7)
+- [3179407](https://github.com/virtual-secrets/apimachinery/commit/3179407) Add support for `GCP Secret Manager` (#6)
+- [7d6c054](https://github.com/virtual-secrets/apimachinery/commit/7d6c054) Use Go 1.25 (#5)
+- [63d85c1](https://github.com/virtual-secrets/apimachinery/commit/63d85c1) Add support for `Azure Key-Vault` (#3)
+- [09435d1](https://github.com/virtual-secrets/apimachinery/commit/09435d1) Add secretMount api (#4)
+- [6d54150](https://github.com/virtual-secrets/apimachinery/commit/6d54150) Add support for AWS and k8s Secret Manager  (#2)
+
+
+
+## [virtual-secrets/csi-provider](https://github.com/virtual-secrets/csi-provider)
+
+### [v0.1.0](https://github.com/virtual-secrets/csi-provider/releases/tag/v0.1.0)
+
+- [f94283d](https://github.com/virtual-secrets/csi-provider/commit/f94283d) Prepare for release v0.1.0 (#7)
+- [9ffd1e1](https://github.com/virtual-secrets/csi-provider/commit/9ffd1e1) Cleanup go.mod
+
+
+
+## [virtual-secrets/installer](https://github.com/virtual-secrets/installer)
+
+### [v2026.2.27](https://github.com/virtual-secrets/installer/releases/tag/v2026.2.27)
+
+- [3577525](https://github.com/virtual-secrets/installer/commit/3577525) Prepare for release v2026.2.27 (#28)
+- [43ef8f7](https://github.com/virtual-secrets/installer/commit/43ef8f7) Remove reference to kubevault project
+- [0830598](https://github.com/virtual-secrets/installer/commit/0830598) Update deps
+
+
+
+## [virtual-secrets/server](https://github.com/virtual-secrets/server)
+
+### [v0.3.0](https://github.com/virtual-secrets/server/releases/tag/v0.3.0)
+
+- [1a740573](https://github.com/virtual-secrets/server/commit/1a740573) Prepare for release v0.3.0 (#14)
+- [22e6fdc7](https://github.com/virtual-secrets/server/commit/22e6fdc7) Update deps (#13)
+- [501c16cf](https://github.com/virtual-secrets/server/commit/501c16cf) Refactor & packaged (#12)
+
+
+
