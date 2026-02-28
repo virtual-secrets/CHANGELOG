@@ -1,7 +1,7 @@
 {
   "product_line": "VirtualSecrets",
   "release": "v2026.2.27",
-  "release_date": "2026-02-28T04:27:35.41581345Z",
+  "release_date": "2026-02-28T04:44:55.507760269Z",
   "release_project_url": "https://github.com/virtual-secrets/CHANGELOG",
   "docs_url": "https://virtual-secrets.dev/docs/v2026.2.27",
   "kubernetes_version": "1.28+",
@@ -47,6 +47,24 @@
             {
               "SHA": "6d54150",
               "Subject": "Add support for AWS and k8s Secret Manager  (#2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/virtual-secrets/csi-provider",
+      "releases": [
+        {
+          "tag": "v0.1.0",
+          "commits": [
+            {
+              "SHA": "f94283d",
+              "Subject": "Prepare for release v0.1.0 (#7)"
+            },
+            {
+              "SHA": "9ffd1e1",
+              "Subject": "Cleanup go.mod"
             }
           ]
         }

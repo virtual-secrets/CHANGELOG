@@ -17,3 +17,12 @@
 
 
 
+## [virtual-secrets/csi-provider](https://github.com/virtual-secrets/csi-provider)
+
+### [v0.1.0](https://github.com/virtual-secrets/csi-provider/releases/tag/v0.1.0)
+
+- [f94283d](https://github.com/virtual-secrets/csi-provider/commit/f94283d) Prepare for release v0.1.0 (#7)
+- [9ffd1e1](https://github.com/virtual-secrets/csi-provider/commit/9ffd1e1) Cleanup go.mod
+
+
+
