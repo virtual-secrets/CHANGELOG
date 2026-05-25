@@ -28,11 +28,6 @@ jobs:
           cache: false
         id: go
 
-      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
-        with:
-          node-version: '22'
-          check-latest: true
-
       - name: Install yq
         run: |
           curl -fsSL -o yqq https://github.com/mikefarah/yq/releases/download/3.3.0/yq_linux_amd64
@@ -51,12 +46,6 @@ jobs:
           curl -fsSL -o hugo-tools https://github.com/appscodelabs/hugo-tools/releases/latest/download/hugo-tools-linux-amd64
           chmod +x hugo-tools
           sudo mv hugo-tools /usr/local/bin/hugo-tools
-
-      - name: Install uibuilder-tools
-        run: |
-          curl -fsSL -o uibuilder-tools https://github.com/bytebuilders/uibuilder-tools/releases/latest/download/uibuilder-tools-linux-amd64
-          chmod +x uibuilder-tools
-          sudo mv ./uibuilder-tools /usr/local/bin/uibuilder-tools
 
       - name: Install render-gotpl
         run: |
@@ -103,7 +92,7 @@ jobs:
 
       - name: Prepare Go for private repos
         run: |
-          go env -w GOPRIVATE=go.appscode.dev/*,github.com/appscode/*,go.bytebuilders.dev/*,go.opscenter.dev/*
+          go env -w GOPRIVATE=go.appscode.dev/*,github.com/appscode/*,kubedb.dev/*
 
       - name: Verify PR is from same repo (not a fork)
         env:
