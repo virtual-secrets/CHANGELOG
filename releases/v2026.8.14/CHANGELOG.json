@@ -1,7 +1,7 @@
 {
   "product_line": "VirtualSecrets",
   "release": "v2026.8.14",
-  "release_date": "2026-08-13T17:58:55.532223998Z",
+  "release_date": "2026-08-13T18:25:55.185588475Z",
   "release_project_url": "https://github.com/virtual-secrets/CHANGELOG",
   "docs_url": "https://virtual-secrets.dev/docs/v2026.8.14",
   "kubernetes_version": "1.28+",
@@ -39,6 +39,44 @@
             {
               "SHA": "f4484bd",
               "Subject": "Configure dependabot refresh schedule (#13)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/virtual-secrets/csi-provider",
+      "releases": [
+        {
+          "tag": "v0.2.0",
+          "commits": [
+            {
+              "SHA": "4be889b",
+              "Subject": "Prepare for release v0.2.0 (#16)"
+            },
+            {
+              "SHA": "b9a04c4",
+              "Subject": "Modernize golangci-lint config (#15)"
+            },
+            {
+              "SHA": "a389679",
+              "Subject": "Add CLAUDE.md pointing to AGENTS.md"
+            },
+            {
+              "SHA": "5197dcf",
+              "Subject": "Replace GHCRX app token with LGTM_GITHUB_TOKEN (#13)"
+            },
+            {
+              "SHA": "1d438bc",
+              "Subject": "Add AGENTS.md (#12)"
+            },
+            {
+              "SHA": "d5c97ec",
+              "Subject": "Harden CI workflows"
+            },
+            {
+              "SHA": "502ac9f",
+              "Subject": "Configure dependabot refresh schedule (#9)"
             }
           ]
         }

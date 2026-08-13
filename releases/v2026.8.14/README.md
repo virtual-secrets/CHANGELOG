@@ -15,3 +15,17 @@
 
 
 
+## [virtual-secrets/csi-provider](https://github.com/virtual-secrets/csi-provider)
+
+### [v0.2.0](https://github.com/virtual-secrets/csi-provider/releases/tag/v0.2.0)
+
+- [4be889b](https://github.com/virtual-secrets/csi-provider/commit/4be889b) Prepare for release v0.2.0 (#16)
+- [b9a04c4](https://github.com/virtual-secrets/csi-provider/commit/b9a04c4) Modernize golangci-lint config (#15)
+- [a389679](https://github.com/virtual-secrets/csi-provider/commit/a389679) Add CLAUDE.md pointing to AGENTS.md
+- [5197dcf](https://github.com/virtual-secrets/csi-provider/commit/5197dcf) Replace GHCRX app token with LGTM_GITHUB_TOKEN (#13)
+- [1d438bc](https://github.com/virtual-secrets/csi-provider/commit/1d438bc) Add AGENTS.md (#12)
+- [d5c97ec](https://github.com/virtual-secrets/csi-provider/commit/d5c97ec) Harden CI workflows
+- [502ac9f](https://github.com/virtual-secrets/csi-provider/commit/502ac9f) Configure dependabot refresh schedule (#9)
+
+
+
