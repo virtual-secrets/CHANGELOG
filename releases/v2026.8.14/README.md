@@ -29,3 +29,18 @@
 
 
 
+## [virtual-secrets/server](https://github.com/virtual-secrets/server)
+
+### [v0.4.0](https://github.com/virtual-secrets/server/releases/tag/v0.4.0)
+
+- [f9a7186d](https://github.com/virtual-secrets/server/commit/f9a7186d) Prepare for release v0.4.0 (#26)
+- [3963acfe](https://github.com/virtual-secrets/server/commit/3963acfe) Route Secret reads/writes into KubeVault-provisioned tenant namespaces (#25)
+- [00552135](https://github.com/virtual-secrets/server/commit/00552135) Modernize golangci-lint config (#24)
+- [38a8bd7d](https://github.com/virtual-secrets/server/commit/38a8bd7d) Add CLAUDE.md pointing to AGENTS.md
+- [23f60861](https://github.com/virtual-secrets/server/commit/23f60861) Replace GHCRX app token with LGTM_GITHUB_TOKEN (#22)
+- [baebcbd9](https://github.com/virtual-secrets/server/commit/baebcbd9) Add AGENTS.md (#21)
+- [7a22251d](https://github.com/virtual-secrets/server/commit/7a22251d) Harden CI workflows
+- [afa30a66](https://github.com/virtual-secrets/server/commit/afa30a66) Configure dependabot refresh schedule (#18)
+
+
+
