@@ -1,0 +1,48 @@
+{
+  "product_line": "VirtualSecrets",
+  "release": "v2026.8.14",
+  "release_date": "2026-08-13T17:58:55.532223998Z",
+  "release_project_url": "https://github.com/virtual-secrets/CHANGELOG",
+  "docs_url": "https://virtual-secrets.dev/docs/v2026.8.14",
+  "kubernetes_version": "1.28+",
+  "projects": [
+    {
+      "url": "github.com/virtual-secrets/apimachinery",
+      "releases": [
+        {
+          "tag": "v0.2.0",
+          "commits": [
+            {
+              "SHA": "8b6d6d1",
+              "Subject": "Route SecretStore.Vault through an AppBinding instead of a raw URL (#18)"
+            },
+            {
+              "SHA": "ceb5713",
+              "Subject": "Modernize golangci-lint config (#17)"
+            },
+            {
+              "SHA": "aa83884",
+              "Subject": "Cleanup CVEs"
+            },
+            {
+              "SHA": "c20e167",
+              "Subject": "Add CLAUDE.md pointing to AGENTS.md"
+            },
+            {
+              "SHA": "05b8159",
+              "Subject": "Add AGENTS.md (#16)"
+            },
+            {
+              "SHA": "8ab3229",
+              "Subject": "Harden CI workflows"
+            },
+            {
+              "SHA": "f4484bd",
+              "Subject": "Configure dependabot refresh schedule (#13)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
