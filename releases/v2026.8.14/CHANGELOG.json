@@ -1,7 +1,7 @@
 {
   "product_line": "VirtualSecrets",
   "release": "v2026.8.14",
-  "release_date": "2026-08-13T18:26:02.916191698Z",
+  "release_date": "2026-08-13T20:05:46.981588802Z",
   "release_project_url": "https://github.com/virtual-secrets/CHANGELOG",
   "docs_url": "https://virtual-secrets.dev/docs/v2026.8.14",
   "kubernetes_version": "1.28+",
@@ -77,6 +77,56 @@
             {
               "SHA": "502ac9f",
               "Subject": "Configure dependabot refresh schedule (#9)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/virtual-secrets/installer",
+      "releases": [
+        {
+          "tag": "v2026.8.14",
+          "commits": [
+            {
+              "SHA": "6a6dc1c",
+              "Subject": "Prepare for release v2026.8.14 (#39)"
+            },
+            {
+              "SHA": "ce4f143",
+              "Subject": "Clean up cves"
+            },
+            {
+              "SHA": "17c7b18",
+              "Subject": "Update crds for virtual-secrets/apimachinery@8b6d6d19 (#37)"
+            },
+            {
+              "SHA": "eae1200",
+              "Subject": "Add make update-catalog and refresh targets (#36)"
+            },
+            {
+              "SHA": "d0002ee",
+              "Subject": "Update cve report (#29)"
+            },
+            {
+              "SHA": "202e538",
+              "Subject": "Modernize golangci-lint config (#35)"
+            },
+            {
+              "SHA": "6315fe5",
+              "Subject": "Add CLAUDE.md pointing to AGENTS.md"
+            },
+            {
+              "SHA": "dfd4f8f",
+              "Subject": "Add AGENTS.md (#34)"
+            },
+            {
+              "SHA": "d020d6d",
+              "Subject": "Harden CI workflows"
+            },
+            {
+              "SHA": "9df9a68",
+              "Subject": "Configure dependabot refresh schedule (#31)"
             }
           ]
         }

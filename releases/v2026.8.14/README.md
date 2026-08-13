@@ -29,6 +29,23 @@
 
 
 
+## [virtual-secrets/installer](https://github.com/virtual-secrets/installer)
+
+### [v2026.8.14](https://github.com/virtual-secrets/installer/releases/tag/v2026.8.14)
+
+- [6a6dc1c](https://github.com/virtual-secrets/installer/commit/6a6dc1c) Prepare for release v2026.8.14 (#39)
+- [ce4f143](https://github.com/virtual-secrets/installer/commit/ce4f143) Clean up cves
+- [17c7b18](https://github.com/virtual-secrets/installer/commit/17c7b18) Update crds for virtual-secrets/apimachinery@8b6d6d19 (#37)
+- [eae1200](https://github.com/virtual-secrets/installer/commit/eae1200) Add make update-catalog and refresh targets (#36)
+- [d0002ee](https://github.com/virtual-secrets/installer/commit/d0002ee) Update cve report (#29)
+- [202e538](https://github.com/virtual-secrets/installer/commit/202e538) Modernize golangci-lint config (#35)
+- [6315fe5](https://github.com/virtual-secrets/installer/commit/6315fe5) Add CLAUDE.md pointing to AGENTS.md
+- [dfd4f8f](https://github.com/virtual-secrets/installer/commit/dfd4f8f) Add AGENTS.md (#34)
+- [d020d6d](https://github.com/virtual-secrets/installer/commit/d020d6d) Harden CI workflows
+- [9df9a68](https://github.com/virtual-secrets/installer/commit/9df9a68) Configure dependabot refresh schedule (#31)
+
+
+
 ## [virtual-secrets/server](https://github.com/virtual-secrets/server)
 
 ### [v0.4.0](https://github.com/virtual-secrets/server/releases/tag/v0.4.0)
